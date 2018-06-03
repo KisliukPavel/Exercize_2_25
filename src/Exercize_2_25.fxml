@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" spacing="15.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Exercize_2_25Controller">
+   <children>
+      <TextField fx:id="input_Text_Field" alignment="CENTER_RIGHT" onKeyTyped="#input_Text_Field_Typed" prefHeight="12.0" prefWidth="200.0">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </TextField>
+      <Label fx:id="output_Label" alignment="CENTER" contentDisplay="CENTER" prefHeight="35.0" prefWidth="220.0" text="Very long number">
+         <font>
+            <Font name="Times New Roman" size="28.0" />
+         </font>
+      </Label>
+   </children>
+   <padding>
+      <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+   </padding>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</VBox>
